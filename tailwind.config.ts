@@ -7,43 +7,48 @@ const config: Config = {
     extend: {
       colors: {
         paper: {
-          DEFAULT: "#F7F4EE",
-          dim: "#EFEAE0",
+          DEFAULT: "#FFFFFF",
+          dim: "#F0F4F8",
         },
         ink: {
-          DEFAULT: "#1B1F1D",
-          soft: "#4A524D",
-          faint: "#8A938C",
+          DEFAULT: "#0A1628",
+          soft: "#2D4263",
+          faint: "#6B84A3",
         },
-        teal: {
-          50: "#EAF3F1",
-          100: "#CFE3DF",
-          200: "#9FC7BF",
-          300: "#6FAB9F",
-          400: "#3F8F7F",
-          500: "#0F4C46",
-          600: "#0C3F3A",
-          700: "#0A332F",
-          800: "#072622",
-          900: "#051A17",
+        blue: {
+          50: "#EFF6FF",
+          100: "#DBEAFE",
+          200: "#BFDBFE",
+          300: "#93C5FD",
+          400: "#60A5FA",
+          500: "#0077B6",
+          600: "#005F92",
+          700: "#004A75",
+          800: "#003559",
+          900: "#002140",
+        },
+        sky: {
+          DEFAULT: "#48CAE4",
+          soft: "#ADE8F4",
+          deep: "#0096C7",
         },
         gold: {
-          DEFAULT: "#C9A24B",
-          soft: "#E4D2A0",
-          deep: "#9C7A2E",
+          DEFAULT: "#F4A261",
+          soft: "#FDDCBC",
+          deep: "#E76F1F",
         },
         rust: {
-          DEFAULT: "#B5512E",
-          soft: "#E8C2AE",
+          DEFAULT: "#E63946",
+          soft: "#FBBFC3",
         },
         night: {
-          DEFAULT: "#10141A",
-          card: "#161B22",
-          line: "#252C35",
+          DEFAULT: "#0A1628",
+          card: "#112240",
+          line: "#1D3461",
         },
       },
       fontFamily: {
-        display: ["var(--font-fraunces)", "serif"],
+        display: ["var(--font-inter)", "sans-serif"],
         body: ["var(--font-inter)", "sans-serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
@@ -53,7 +58,7 @@ const config: Config = {
         lg: "12px",
       },
       boxShadow: {
-        card: "0 1px 2px rgba(27,31,29,0.06), 0 8px 24px -12px rgba(27,31,29,0.18)",
+        card: "0 1px 3px rgba(0,119,182,0.06), 0 8px 24px -12px rgba(0,119,182,0.12)",
       },
       keyframes: {
         "fade-up": {
